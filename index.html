@@ -7,33 +7,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="jquery.js"></script>
     <script src="data_generator.js"></script>
+    <script src="index.js"></script>
+    <script src="moment/moment.js"></script>
   </head>
   <body>    
     <header class="primary-header">
-        <a href="index.html">The Twittler Machine</a>
+        <a>The Twittler Machine</a>
     </header>
+    <button id="update-btn">Show Me More Tweets</button>
     <section class="tweets">
-    <script>
-
-      $(document).ready(function(){
-        // var $body = $('body');
-        var $section = $('.tweets')
-        // $section.html('');
-        // $body.html('');
-
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($section);
-          index -= 1;
-        }
-
-      });
-
-    </script>
     </section>
-    <footer>This is the footer</footer>
+    <footer>You've read enough twittlers for now</footer>
   </body>
 </html>

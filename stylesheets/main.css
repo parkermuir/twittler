@@ -38,28 +38,93 @@ body {
     background: #57bc90;
     color: #015249;
     font: 300 20px/24px "Roboto", "Open Sans", Arial, sans-serif;
-    padding: 25px;
+    padding: 15px;
+    text-align: center;
 }
 
 section {
     background: #77C9D4;
-    padding: 20px 40px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    width: 85%;
+    margin: auto;
 }
 
 header {
     color: white;
     font-size: 60px;
-    font-weight: 400px;
+    font-weight: 900;
     letter-spacing: 1px;
     line-height: 60px;
-    padding: 40px;
     text-align: center;
 }
 
 footer {
     background: lightgrey;
     color: black;
-    font: 100 14px;
+    font-size: 16px;
     text-align: center;
+    margin: auto;
     margin-top: 40px;
+    /* margin-top: 40px; */
+    width: 85%;
+    padding: 5px 20px;
+    border-radius: 8px;
 }
+
+.tweet-container {
+    background: whitesmoke;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+#update-btn:hover {
+    background: #a5a5af
+}
+
+#update-btn {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tweet-text, .timestamp, .username {
+    margin: 10px;
+    display: inline-block;
+}
+
+.tweet-text {
+    margin-left: 3px;
+}
+
+.username {
+    margin-right: 3px;
+}
+
+
+/*
+	=======================================
+	Typography
+	=======================================
+*/
+
+.username {
+    color: #015249;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.timestamp {
+    color:#3b3a30;
+    font-weight: 100;
+    font-size: 12px;
+    vertical-align: center;
+}
+
+#update-btn {
+    color: #77C9D4;
+    background: black;
+    font-size: 32px;
+}
+
