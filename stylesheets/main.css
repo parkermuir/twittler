@@ -35,15 +35,15 @@ footer, header, hgroup, menu, nav, section {
 */
 
 body {
-    background: #57bc90;
-    color: #015249;
+    background: #c8c3cc;
+    color: black;
     font: 300 20px/24px "Roboto", "Open Sans", Arial, sans-serif;
     padding: 15px;
     text-align: center;
 }
 
 section {
-    background: #77C9D4;
+    background: #484f4f;
     padding: 20px 20px;
     margin: 20px;
     border-radius: 15px;
@@ -52,7 +52,7 @@ section {
 }
 
 header {
-    color: white;
+    color: #563f46;
     font-size: 60px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -62,7 +62,7 @@ header {
 }
 
 footer {
-    background: lightgrey;
+    background: gray;
     color: black;
     font-size: 16px;
     text-align: center;
@@ -75,13 +75,14 @@ footer {
 }
 
 .tweet-container {
-    background: whitesmoke;
+    background: #8ca3a3;
     margin: 10px;
     border-radius: 40px;
 }
 
 #update-btn:hover {
-    background: #a5a5af
+    background: #c1502e;
+    cursor: pointer;
 }
 
 #update-btn {
@@ -104,6 +105,11 @@ footer {
     margin-right: 3px;
 }
 
+h1 {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
 
 /*
 	=======================================
@@ -112,21 +118,37 @@ footer {
 */
 
 .username {
-    color: #015249;
-    font-style: bold;
-    font-weight: 900;
+    color: #484f4f;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.username:hover {
+    color: #c1502e;
+    cursor: pointer;
 }
 
 .timestamp {
     color:#3b3a30;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 14px;
     vertical-align: center;
 }
 
 #update-btn {
-    color: #77C9D4;
-    background: black;
+    color: #e0e2e4;
+    background: #484f4f;
     font-size: 32px;
 }
 
+h1 {
+    color: #e0e2e4;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+/*
+	=======================================
+	Links
+	=======================================
+*/

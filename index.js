@@ -26,16 +26,18 @@ $(document).ready(function(){
     renderTweets('home');
 
     $('#update-btn').on('click', function() {
-        $('#update-btn').text('Refresh My Feed')
         renderTweets('home');
+
+        $('#update-btn').text('Refresh My Feed')
+        $('footer').show();
         });
 
     $('.tweets').on('click', '.username', function() {
         var $clickee = $(this).text().slice(1);
         renderTweets($clickee);
-        
+
         $('.tweets').prepend($('<h1>' + $clickee + '\'s Profile </h1>'));
-        $('footer').remove();
+        $('footer').hide();
         $('#update-btn').text('Home');
     });
 });
