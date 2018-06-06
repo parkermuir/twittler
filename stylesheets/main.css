@@ -45,6 +45,7 @@ body {
 section {
     background: #77C9D4;
     padding: 20px 20px;
+    margin: 20px;
     border-radius: 15px;
     width: 85%;
     margin: auto;
@@ -57,6 +58,7 @@ header {
     letter-spacing: 1px;
     line-height: 60px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -85,7 +87,7 @@ footer {
 #update-btn {
     display: inline-block;
     padding: 20px;
-    margin: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
